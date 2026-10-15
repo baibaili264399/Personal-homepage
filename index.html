@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>陆世松 · 前端开发 / 软件工程</title>
+<meta name="description" content="陆世松 — 上海建桥学院软件工程专业，Web 前端开发，网页设计与在线小游戏。" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="progress-bar" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="nav-logo magnetic" href="#top">陆世松<span>.</span></a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#about">关于</a>
+      <a href="#skills">技能</a>
+      <a href="#work">作品</a>
+      <a href="#contact">联系</a>
+    </nav>
+    <a class="nav-cta magnetic" href="mailto:bailibai460@gmail.com">联系我 <span class="arr">↗</span></a>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <p class="hero-eyebrow">SOFTWARE ENGINEERING · FRONT-END DEV</p>
+      <h1 class="hero-name" aria-label="陆世松">
+        <span class="h-name">陆世松</span>
+      </h1>
+      <p class="hero-sub">
+        我是 <span class="swap" data-words="Web 前端开发,网页设计,在线小游戏,逆向工程爱好者">Web 前端开发</span>
+      </p>
+      <p class="hero-tagline">把想法做成好看的界面，也把程序拆开，看它如何思考。</p>
+      <div class="hero-meta">
+        <span>上海建桥学院 · 软件工程</span>
+        <span class="dot">·</span>
+        <span>2023 — 2027</span>
+      </div>
+      <a class="scroll-hint" href="#about">
+        <span>向下滚动</span>
+        <span class="scroll-line"><i></i></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head">
+        <span class="sec-num">01</span>
+        <span class="sec-label">关于我 / About</span>
+      </div>
+      <div class="about-grid">
+        <p class="about-statement reveal">对着一堆代码与像素，<br />还原它本该有的样子。</p>
+        <div class="about-body">
+          <p class="reveal">上海建桥学院信息技术学院 <em>软件工程</em> 专业本科在读（2023.9 — 2027.6）。熟悉 HTML、CSS 与 JavaScript，擅长网页设计与响应式布局，独立完成过网站与个人主页的设计、切图与前端实现，也喜欢写在线小游戏。</p>
+          <p class="reveal">习惯把 AI 工具融进开发流程，用 AI 高效完成代码编写、页面设计与资料整理；同时对<em>逆向工程</em>与二进制分析有浓厚兴趣，喜欢拆开程序看清它真正的逻辑。</p>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat reveal">
+          <span class="stat-num">2027</span>
+          <span class="stat-label">届本科 · 四年制</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num" data-count="4">0</span>
+          <span class="stat-label">CET-4 · 英语四级</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat-num" data-count="3">0</span>
+          <span class="stat-label">意向城市 · 沪/杭/深</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section">
+      <div class="section-head">
+        <span class="sec-num">02</span>
+        <span class="sec-label">教育经历 / Education</span>
+      </div>
+      <ol class="timeline">
+        <li class="tl-item reveal">
+          <span class="tl-year">2023.9 — 2027.6</span>
+          <div class="tl-main">
+            <h3>上海建桥学院 · 信息技术学院</h3>
+            <p>软件工程（本科在读，四年制）</p>
+            <p class="tl-courses">主要课程：C 语言程序设计、数据结构与算法、面向对象程序设计（Java）、数据库原理与应用、计算机网络、操作系统、Web 前端开发、软件工程、软件测试</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head">
+        <span class="sec-num">03</span>
+        <span class="sec-label">技能栈 / Skills</span>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h3 class="group-title">前端开发</h3>
+          <ul class="bars">
+            <li class="bar"><div class="bar-top"><span>HTML / CSS</span><span class="pct">90%</span></div><div class="bar-track"><div class="bar-fill" data-val="90"></div></div></li>
+            <li class="bar"><div class="bar-top"><span>网页设计与布局</span><span class="pct">88%</span></div><div class="bar-track"><div class="bar-fill" data-val="88"></div></div></li>
+            <li class="bar"><div class="bar-top"><span>JavaScript</span><span class="pct">80%</span></div><div class="bar-track"><div class="bar-fill" data-val="80"></div></div></li>
+            <li class="bar"><div class="bar-top"><span>响应式布局</span><span class="pct">85%</span></div><div class="bar-track"><div class="bar-fill" data-val="85"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="group-title">计算机基础</h3>
+          <ul class="bars">
+            <li class="bar"><div class="bar-top"><span>C / Java / 数据结构与算法</span><span class="pct">78%</span></div><div class="bar-track"><div class="bar-fill" data-val="78"></div></div></li>
+            <li class="bar"><div class="bar-top"><span>数据库原理与应用</span><span class="pct">76%</span></div><div class="bar-track"><div class="bar-fill" data-val="76"></div></div></li>
+            <li class="bar"><div class="bar-top"><span>计算机网络 / 操作系统</span><span class="pct">74%</span></div><div class="bar-track"><div class="bar-fill" data-val="74"></div></div></li>
+          </ul>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="group-title">兴趣与拓展</h3>
+          <ul class="tags">
+            <li>在线小游戏</li>
+            <li>逆向工程</li>
+            <li>二进制分析</li>
+            <li>游戏安全</li>
+            <li>AI 辅助开发</li>
+            <li>Git / GitHub</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK -->
+    <section id="work" class="section">
+      <div class="section-head">
+        <span class="sec-num">04</span>
+        <span class="sec-label">作品与实践 / Work</span>
+      </div>
+      <div class="work-grid">
+        <article class="card tilt reveal">
+          <span class="card-num">01</span>
+          <div class="card-body">
+            <h3>网站 / 个人主页设计</h3>
+            <p>2026.7 — 2026.8 承接校外小型网站与个人主页设计项目，独立完成页面设计、切图与前端实现，按期交付并获得认可。</p>
+          </div>
+          <div class="card-tags"><span>HTML/CSS</span><span>响应式</span><span>前端实现</span></div>
+        </article>
+        <article class="card tilt reveal">
+          <span class="card-num">02</span>
+          <div class="card-body">
+            <h3>在线小游戏</h3>
+            <p>自主开发浏览器端在线小游戏，从玩法到页面完整落地，代码托管于 GitHub，具备从页面到上线的完整实践。</p>
+          </div>
+          <div class="card-tags"><span>JavaScript</span><span>游戏开发</span><span>GitHub</span></div>
+        </article>
+        <article class="card tilt reveal">
+          <span class="card-num">03</span>
+          <div class="card-body">
+            <h3>在线设计网页</h3>
+            <p>交互式设计 / 工具类网页，重视布局与视觉，打磨细节与动效，追求「好看又好用」。</p>
+          </div>
+          <div class="card-tags"><span>网页设计</span><span>交互</span><span>动效</span></div>
+        </article>
+        <article class="card tilt reveal">
+          <span class="card-num">04</span>
+          <div class="card-body">
+            <h3>逆向 · 游戏安全（兴趣）</h3>
+            <p>对二进制逆向与游戏安全保持学习与折腾，喜欢把程序拆开、还原它的真实逻辑。</p>
+          </div>
+          <div class="card-tags"><span>逆向工程</span><span>二进制分析</span><span>游戏安全</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <div class="section-head">
+        <span class="sec-num">05</span>
+        <span class="sec-label">联系 / Contact</span>
+      </div>
+      <p class="contact-statement reveal">有想法，就一起把它做出来。</p>
+      <div class="contact-grid">
+        <a class="contact-item magnetic reveal" href="mailto:bailibai460@gmail.com">
+          <span class="c-label">邮箱</span>
+          <span class="c-value">bailibai460@gmail.com</span>
+        </a>
+        <a class="contact-item magnetic reveal" href="tel:19195623827">
+          <span class="c-label">电话</span>
+          <span class="c-value">191 9562 3827</span>
+        </a>
+        <div class="contact-item reveal">
+          <span class="c-label">意向城市</span>
+          <span class="c-value">上海 · 杭州 · 深圳</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© 2025 陆世松</span>
+    <span>Designed &amp; built with HTML / CSS / JS</span>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
